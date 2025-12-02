@@ -55,8 +55,6 @@ The goal of this project is to build a multimodal medical AI system using Vision
 
 ## How to Run
 
-Update this section based on your code structure. Example template:
-
 ```bash
 # 1. Create and activate environment
 conda create -n vit-med python=3.10 -y
@@ -75,16 +73,10 @@ python infer_eye.py  --image path/to/eye_image.png
 python infer_tooth.py --image path/to/dental_xray.png
 ```
 
-## Folder Structure (example)
-
-Update this to match your repository layout.
-
+## Folder Structure 
 ```text
 Vision-Transformer/
-├── data/
-│   ├── skin/
-│   ├── eye/
-│   └── tooth/
+
 ├── models/
 │   ├── vit_skin.py
 │   ├── vit_eye.py
